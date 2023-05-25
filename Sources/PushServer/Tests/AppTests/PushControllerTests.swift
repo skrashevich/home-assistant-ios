@@ -49,7 +49,7 @@ final class PushControllerTests: AbstractTestCase {
                 encrypted: true,
                 encryptedData: nil,
                 registrationInfo: .init(
-                    appId: "io.robbie.HomeAssistant",
+                    appId: "com.svk-telecom.HomeAssistant",
                     appVersion: "1.0",
                     osVersion: "10.0",
                     webhookId: "webhook_id"
@@ -83,7 +83,7 @@ final class PushControllerTests: AbstractTestCase {
             XCTAssertNil(pending.expiration)
             XCTAssertNil(pending.priority)
             XCTAssertNil(pending.collapseIdentifier)
-            XCTAssertEqual(pending.topic, "io.robbie.HomeAssistant.test_app_id")
+            XCTAssertEqual(pending.topic, "com.svk-telecom.HomeAssistant.test_app_id")
             XCTAssertNotNil(pending.apnsID)
 
             pending.promise.completeWith(.success(()))
@@ -94,7 +94,7 @@ final class PushControllerTests: AbstractTestCase {
                 encrypted: true,
                 encryptedData: "given_encrypted_data",
                 registrationInfo: .init(
-                    appId: "io.robbie.HomeAssistant.test_app_id",
+                    appId: "com.svk-telecom.HomeAssistant.test_app_id",
                     appVersion: "1.0",
                     osVersion: "10.0",
                     webhookId: "given_webhook_id"
@@ -126,7 +126,7 @@ final class PushControllerTests: AbstractTestCase {
                 encrypted: true,
                 encryptedData: "given_encrypted_data",
                 registrationInfo: .init(
-                    appId: "io.robbie.HomeAssistant.test_app_id",
+                    appId: "com.svk-telecom.HomeAssistant.test_app_id",
                     appVersion: "1.0",
                     osVersion: "10.0",
                     webhookId: "given_webhook_id"
@@ -178,7 +178,7 @@ final class PushControllerTests: AbstractTestCase {
                 "message": "message",
                 "push_token": pushToken,
                 "registration_info": [
-                    "app_id": "io.robbie.HomeAssistant.unit-test",
+                    "app_id": "com.svk-telecom.HomeAssistant.unit-test",
                     "app_version": "1.0",
                     "os_version": "10.0",
                     "webhook_id": testCase.webhookId,
@@ -231,7 +231,7 @@ final class PushControllerTests: AbstractTestCase {
                 XCTAssertNil(pending.expiration)
                 XCTAssertNil(pending.priority)
                 XCTAssertEqual(pending.collapseIdentifier, testCase.collapseId)
-                XCTAssertEqual(pending.topic, "io.robbie.HomeAssistant.unit-test")
+                XCTAssertEqual(pending.topic, "com.svk-telecom.HomeAssistant.unit-test")
                 XCTAssertNotNil(pending.apnsID)
 
                 pending.promise.completeWith(.success(()))
@@ -263,7 +263,7 @@ final class PushControllerTests: AbstractTestCase {
                 encrypted: true,
                 encryptedData: "given_encrypted_data",
                 registrationInfo: .init(
-                    appId: "io.robbie.HomeAssistant.test_app_id",
+                    appId: "com.svk-telecom.HomeAssistant.test_app_id",
                     appVersion: "1.0",
                     osVersion: "10.0",
                     webhookId: "given_webhook_id"

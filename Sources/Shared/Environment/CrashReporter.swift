@@ -18,7 +18,7 @@ public class CrashReporterImpl: CrashReporter {
             return
         }
 
-        guard Constants.BundleID.starts(with: "io.robbie.") else {
+        guard Constants.BundleID.starts(with: "com.svk-telecom.") else {
             return
         }
 

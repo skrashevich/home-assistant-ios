@@ -3,7 +3,7 @@
         "title": "extra excluded title",
         "message": "update_complications",
         "registration_info": {
-            "app_id": "io.robbie.HomeAssistant.dev",
+            "app_id": "com.svk-telecom.HomeAssistant.dev",
             "os_version": "10.15",
             "app_version": "2021.5"
         }
