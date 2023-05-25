@@ -40,7 +40,7 @@ jobs:
           HOMEASSISTANT_APPLE_ID: ${{ secrets.HOMEASSISTANT_APPLE_ID }}
           HOMEASSISTANT_APP_STORE_CONNECT_PASSWORD: ${{ secrets.HOMEASSISTANT_APP_STORE_CONNECT_PASSWORD }}
           HOMEASSISTANT_APP_STORE_CONNECT_TEAM_ID: ${{ secrets.HOMEASSISTANT_APP_STORE_CONNECT_TEAM_ID }}
-          HOMEASSISTANT_TEAM_ID: ${{ secrets.HOMEASSISTANT_TEAM_ID }}
+          HOMEASSISTANT_TEAM_ID: ${{ secrets.HOMEASSISTANT_APP_STORE_CONNECT_TEAM_ID }}
           P12_KEY_IOS_APP_STORE: ${{ secrets.P12_KEY_IOS_APP_STORE }}
           P12_KEY_MAC_APP_STORE: ${{ secrets.P12_KEY_MAC_APP_STORE }}
           P12_KEY_MAC_DEVELOPER_ID: ${{ secrets.P12_KEY_MAC_DEVELOPER_ID }}
@@ -51,6 +51,12 @@ jobs:
           EMERGE_REPO_NAME: ${{ github.repository }}
           EMERGE_SHA: ${{ github.sha }}
           EMERGE_BASE_SHA: ${{ github.event.before }}
+          # contents of the p8 file
+          APP_STORE_CONNECT_API_KEY_KEY: ${{ secrets.APP_STORE_CONNECT_API_KEY_KEY }}
+          # key ID
+          APP_STORE_CONNECT_API_KEY_KEY_ID: ${{ secrets.APP_STORE_CONNECT_API_KEY_KEY_ID }}
+          # issuer ID
+          APP_STORE_CONNECT_API_KEY_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_API_KEY_ISSUER_ID }}
 
       - name: Dump Version Information
         run: cat Configuration/Version.xcconfig
