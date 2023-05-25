@@ -24,11 +24,35 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Cache Brew
+        uses: actions/cache@v2
+        with:
+          path: /usr/local/Cellar
+          key: ${{ runner.os }}-brew-${{ hashFiles('**/Brewfile.lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-brew-
+
       - name: Install Brews
         run: brew bundle
 
+      - name: Cache Gems
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
       - name: Install Gems
         run: bundle install --jobs 4 --retry 3
+
+      - name: Cache Pods
+        uses: actions/cache@v2
+        with:
+          path: Pods
+          key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-pods-
 
       - name: Install Pods
         run: bundle exec pod install --repo-update
