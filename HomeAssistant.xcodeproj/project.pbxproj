@@ -4237,7 +4237,7 @@
 					};
 					1171506824DFCDE60065E874 = {
 						CreatedOnToolsVersion = 12.0;
-						DevelopmentTeam = QMQYCKL255;
+						DevelopmentTeam = 6V37WARM2K;
 					};
 					11B6B57A2948F8E100B8B552 = {
 						CreatedOnToolsVersion = 14.1;
@@ -4250,7 +4250,7 @@
 					};
 					B627CB061D83C87B0057173E = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = QMQYCKL255;
+						DevelopmentTeam = 6V37WARM2K;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -4306,14 +4306,14 @@
 					};
 					B657A9061CA646EB00121384 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = QMQYCKL255;
+						DevelopmentTeam = 6V37WARM2K;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B657A8E51CA646EB00121384;
 					};
 					B66C58A4215086F0004AB261 = {
 						CreatedOnToolsVersion = 10.0;
-						DevelopmentTeam = QMQYCKL255;
+						DevelopmentTeam = 6V37WARM2K;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -4330,7 +4330,7 @@
 					};
 					B66F9F21216B1E61000CAA0F = {
 						CreatedOnToolsVersion = 10.0;
-						DevelopmentTeam = QMQYCKL255;
+						DevelopmentTeam = 6V37WARM2K;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -4347,13 +4347,13 @@
 					};
 					B67CE82322200D420034C1D0 = {
 						CreatedOnToolsVersion = 10.1;
-						DevelopmentTeam = QMQYCKL255;
+						DevelopmentTeam = 6V37WARM2K;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					B6AAD7A01D827DD40090B220 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = QMQYCKL255;
+						DevelopmentTeam = 6V37WARM2K;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -4370,7 +4370,7 @@
 					};
 					B6CC5D812159D10D00833E5D = {
 						CreatedOnToolsVersion = 10.0;
-						DevelopmentTeam = QMQYCKL255;
+						DevelopmentTeam = 6V37WARM2K;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -4380,7 +4380,7 @@
 					};
 					B6CC5D8D2159D10E00833E5D = {
 						CreatedOnToolsVersion = 10.0;
-						DevelopmentTeam = QMQYCKL255;
+						DevelopmentTeam = 6V37WARM2K;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -4394,13 +4394,13 @@
 					};
 					D03D891620E0A85200D4F28D = {
 						CreatedOnToolsVersion = 9.4.1;
-						DevelopmentTeam = QMQYCKL255;
+						DevelopmentTeam = 6V37WARM2K;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					D03D894120E0BC1800D4F28D = {
 						CreatedOnToolsVersion = 9.4.1;
-						DevelopmentTeam = QMQYCKL255;
+						DevelopmentTeam = 6V37WARM2K;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
